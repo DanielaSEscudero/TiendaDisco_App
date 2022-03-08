@@ -1,0 +1,30 @@
+.btn-carrito {
+  width: 100%;
+}
+.btn-carrito {
+  background-color: #704a94;
+  text-decoration: none !important;
+  color: white;
+  font-weight: bold;
+  border-radius: 1rem 0.5rem;
+}
+.btn-carrito:hover {
+  background-color: rgb(41, 36, 36);
+  color: #704a94;
+}
+.btn-carrito-mas {
+  background-color: #704a94;
+  display: block;
+  width: 100%;
+  margin-top: 0.2rem;
+}
+.btn-carrito-mas:hover {
+  background-color: rgb(41, 36, 36);
+  color: #704a94;
+}
+p {
+  font-size: 1.3rem;
+}
+.btn-carrito-mas {
+  border-radius: 0.5rem 1rem;
+}

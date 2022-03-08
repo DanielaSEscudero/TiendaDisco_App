@@ -1,0 +1,23 @@
+Link {
+  border: 1px solid red;
+}
+.ver-mas {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+.itemListCol {
+  width: 100%;
+}
+h2 {
+  font-size: 1.5rem;
+}
+.verMas {
+  background-color: #704a94;
+  color: rgb(41, 36, 36);
+  border-radius: 1rem 0.5rem;
+}
+.verMas:hover {
+  background-color: rgb(41, 36, 36);
+  color: white;
+}

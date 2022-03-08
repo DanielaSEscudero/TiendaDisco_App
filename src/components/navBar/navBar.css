@@ -1,0 +1,38 @@
+.navbar {
+  background-color: rgb(41, 36, 36);
+  font-size: 1.5rem;
+}
+
+.nav-link-p {
+  color: rgb(226, 196, 196);
+  font-size: 1.5rem;
+}
+.flex-navbar {
+  display: flex;
+}
+.nav-link-p:hover {
+  background-color: #704a94;
+  border-radius: 1rem 0.5rem;
+  color: rgb(41, 36, 36);
+}
+.cartWidget {
+  order: 0;
+}
+.navbar-toggler {
+  order: -1;
+}
+
+@media (min-width: 1199px) {
+  .cartWidget {
+    order: 1;
+  }
+  .nav-link {
+    margin-right: 3rem;
+  }
+  .nav-link:last-of-type {
+    margin-right: 0;
+  }
+  .flex-navbar {
+    justify-content: space-around;
+  }
+}

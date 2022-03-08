@@ -1,0 +1,26 @@
+.banner {
+  height: 30vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(https://firebasestorage.googleapis.com/v0/b/tienda-app-827a6.appspot.com/o/20828-musica21354684.jpg?alt=media&token=aa73ba0e-7395-4e1f-ab83-722d345937f9);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-1 {
+  display: flex;
+
+  justify-content: center;
+}
+.banner-1 h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
